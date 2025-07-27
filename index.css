@@ -1,0 +1,103 @@
+html, body {
+    margin: 0;
+    font-family: "Source Sans 3", sans-serif;
+    background: #EDEDED;
+}
+
+header, section{
+    background-color: white;
+}
+
+section{
+    padding: 16px;
+    margin-bottom: 25px;
+}
+
+h2, p{
+    font-size: 13px;
+}
+
+h2{
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+img{
+    width: 375px;
+}
+
+.icons{
+    width: 23px;
+    margin: 0;
+}
+
+.icons:hover,
+.icons:focus{
+    border: 1px solid black;
+    cursor: grab;
+    background-color: #70707070;
+}
+
+.logo{
+    width: 127px;
+    margin-left: 15px;
+}
+
+.profile-img{
+    width: 34px;
+    border-radius: 50%;
+}
+
+header .profile-img{
+    margin-right: 15px;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container{
+    border-bottom: 1px solid #C6C6C6;
+    height: 67px;
+}
+
+.user-info{
+    display: flex;
+    align-items: center;
+    height: 55px;
+}
+
+.user-info h2,
+.user-info h3{
+    margin: 0;
+}
+
+.user-info .profile-img{
+    margin: 0 7px 0 10px;
+}
+
+.container{
+    width: 375px;
+    margin: 0 auto;
+}
+
+.icons-container{
+    width: 104px;
+    display: flex;
+    justify-content: space-between;
+    margin: 21px 0 12px 10px;
+}
+
+.likes-count, .comments{
+    margin: 12px 19px 12px 13px;
+}
+
+.bold-txt{
+    font-weight: 700;
+}
